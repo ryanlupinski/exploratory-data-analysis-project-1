@@ -3,7 +3,7 @@
 # Ryan Lupinski
 # 7/9/2015
 #
-# plot3.R reads in file household_power_consumption.txt, subsets dates, February 1, 2007 and February 2, 2007,
+# plot4.R reads in file household_power_consumption.txt, subsets dates, February 1, 2007 and February 2, 2007,
 # and displays 4 plots showing global active power, global reactive power, voltage, and
 # sub_metering over the 2-day period:
 # 
