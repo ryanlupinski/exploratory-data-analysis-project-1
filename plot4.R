@@ -39,7 +39,7 @@ globalReactivePower <- as.numeric(data_req$Global_reactive_power)
 # plot all 4 graphs in 1 window
 png("plot4.png", width=480, height=480,)
 par(mfrow=c(2,2))
-plot(datetime, globalActivePower, type ="l", ylab ="Global Active Power (kilowawtts)")
+plot(datetime, globalActivePower, type ="l", ylab ="Global Active Power (kilowawtts)", xlab="")
 plot(datetime, voltage, type="l", ylab="Voltage")
 plot(datetime,subMetering1, ylim =range(c(subMetering1,subMetering2)), type ="l", ylab="Energy Submetering", xlab="")
 lines(datetime,subMetering2, ylim =range(c(subMetering1,subMetering2)), type ="l", col="red")
